@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1092416743615",
+    "project_id": "safari-3ba70",
+    "storage_bucket": "safari-3ba70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092416743615:android:15a8a960575a966061be0a",
+        "android_client_info": {
+          "package_name": "com.johnsonnyamweya.safari"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092416743615-t8o1vh4nh10dkltnj9mqli0frebul1oh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBSKZfLgvbkrMP_huYGjKFzWY7ezo8NJRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092416743615-t8o1vh4nh10dkltnj9mqli0frebul1oh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

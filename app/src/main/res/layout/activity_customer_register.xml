@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomerRegisterActivity">
+
+    <ImageView
+        android:id="@+id/customer_register_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/splash"/>
+
+    <TextView
+        android:id="@+id/txt_customer_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_register_img"
+        android:text="Customer Register"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/customer_register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_customer_register"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/customer_register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_register_email"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/customer_register_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/customer_register_password"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Register"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+    <TextView
+        android:id="@+id/customer_login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/customer_register_btn"
+        android:text="Have an Account? Login"
+        android:textSize="18sp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/teal_200"/>
+
+</RelativeLayout>

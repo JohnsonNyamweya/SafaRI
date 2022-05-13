@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverLoginActivity">
+
+    <ImageView
+        android:id="@+id/driver_login_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/splash"/>
+
+    <TextView
+        android:id="@+id/txt_driver_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_login_img"
+        android:text="Driver Login"
+        android:textColor="@color/teal_700"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/driver_login_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_driver_login"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/driver_login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/driver_login_email"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/driver_login_btn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/driver_login_password"
+        android:layout_centerHorizontal="true"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
